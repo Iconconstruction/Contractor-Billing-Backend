@@ -2,6 +2,8 @@ from flask import Flask, request, send_file
 import pandas as pd
 import os
 from werkzeug.utils import secure_filename
+from flask_cors import CORS
+
 
 app = Flask(__name__)
 
